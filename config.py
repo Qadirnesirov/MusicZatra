@@ -39,7 +39,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
+    "GIT_TOKEN", "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"
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ZaTRaSPoRT")
@@ -67,7 +67,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @Venom_string_robot on Telegram
-STRING1 = getenv("STRING_SESSION", "AgFvOpwAIeWmQEsT2S6vvWtp7-xzZacjldB4ehTr17mtasRzOlaKP4ZBNEmJsnjMTG5JQyjaC6xQCz1yJ-Iogcy4qAESnx7xQF7xCG3a6sqvRDYn2vDnrpvRM154adpwYYCCHbcUDbcsgmwJ9OPm03nJRZt0IcVCeLQoLgD_DnQ-Co_NHYBbGuPlMBGNhgRXYTuDHcB2NDPHbZUnY_RBlXT2NTxSVumS9pcGMxQ_MiOEH2j2u9GC-qqlvg_fGbJ09_ao037Tk-T_F5zvxKmJMMUDG5b6ZTej6c7Qo9bFao5x8d1WmkkvP2bdFXnlObI9zolS83DvHFaQyZqeEJMMaYI5rIXSugAAAAFZvEdgAA")
+STRING1 = getenv("STRING_SESSION", "AgFvOpwACxqdYbmZtD6_vgjdeTnKPZ1RtwFBLuBmAAtHtAvNBKGUFOgv6K5Z5rF-m-qrzSXjE0qT1lsHeP7H-uk25gyo3mR_ycnl7FtAOtmZXzs7bvRRPfu_k2njQJ23LKdwJy_WgsDiyWAE0rMRUjYaXjFn8tOH3K_3obBMDTeSvWAdu3A8KnRW-xvbqbzXKBMrUoGSOEuPwZiN2Kc0KHN8_1TEVQ8dENr0b6I6UCvMczQ23PaBNdWut42g4VOdUD_mSaak_4mu7ZZpPvxV4DItzM5S50yDZb7XMlPJrSoG-4BCLrNbq-BAycRzIAvWk-JFQI-wL9j_ky9CgmGFhrzZcacgoAAAAAFZvEdgAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
